@@ -48,6 +48,7 @@ void rotationMatrixModuleFunc(){
             printf("[%d,%d] = ",i,j);
             scanf("%d",&inputNum);
             originMatrix[i][j] = inputNum;
+            // 原地旋转
             //            clockwiseRotationMatrix[n-j-1][i] = originMatrix[i][j];
             //            anticlockwiseRotationMatrix[j][n-i-1] = originMatrix[i][j];
         }
